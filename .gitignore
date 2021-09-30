@@ -1,0 +1,10 @@
+#folder to remove
+db
+hps_isw_handoff
+incremental_db
+output_files
+soc_system
+#files to remove
+*.txt
+*.csv
+*.sopcinfo
