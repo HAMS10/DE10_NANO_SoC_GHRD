@@ -1,6 +1,6 @@
 #!/usr/bin/bash
-mkdir software
+mkdir qsys_headers
 sopc-create-header-files \
 soc_system.sopcinfo \
 --output-dir \
-software
+qsys_headers
