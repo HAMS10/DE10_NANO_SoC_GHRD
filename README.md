@@ -9,5 +9,5 @@ The script must be executed in the repository folder with the name of the new pr
 ./create_project.sh <project Name>
 ~~~
 <p>
-If do you want use the script in the official DE10\_NANO\_SoC\_GHRD you must copy the **.gitignore** and the script **create_project.sh**.
+If do you want use the script in the official DE10\_NANO\_SoC\_GHRD you must copy the *.gitignore* and the script *create_project.sh*.
 </p>
