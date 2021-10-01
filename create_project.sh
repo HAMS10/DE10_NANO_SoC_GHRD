@@ -16,8 +16,10 @@ else
     
     rm -rfd .git
 
-    for filename in DE10_NANO_SoC_GHRD*; do sed -i "s/DE10_NANO_SoC_GHRD/$1/g" $filename $filename; done
-    for filename in DE10_NANO_SOC_GHRD*; do sed -i "s/DE10_NANO_SOC_GHRD/$1/g" $filename $filename; done
+    for filename in DE10_NANO_SoC_GHRD*; do sed -i "s/DE10_NANO_SoC_GHRD/$1/g" $filename; done
+    for filename in DE10_NANO_SoC_GHRD*; do sed -i "s/DE10_NANO_SOC_GHRD/$1/g" $filename; done
+    for filename in DE10_NANO_SOC_GHRD*; do sed -i "s/DE10_NANO_SoC_GHRD/$1/g" $filename; done
+    for filename in DE10_NANO_SOC_GHRD*; do sed -i "s/DE10_NANO_SOC_GHRD/$1/g" $filename; done
     
     for filename in DE10_NANO_SoC_GHRD*; do mv $filename ${filename//DE10_NANO_SoC_GHRD/$1}; done
     for filename in DE10_NANO_SOC_GHRD*; do mv $filename ${filename//DE10_NANO_SOC_GHRD/$1}; done
