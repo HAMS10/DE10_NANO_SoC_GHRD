@@ -6,7 +6,12 @@ output_files
 .qsys_edit
 soc_system
 qsys_headers
+software
 #files to remove
+Makefile
 *.txt
 *.csv
 *.sopcinfo
+*.xml
+*.dtb
+*.dts
