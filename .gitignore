@@ -3,10 +3,10 @@ db
 hps_isw_handoff
 incremental_db
 output_files
-.qsys_edit
 soc_system
 qsys_headers
 software
+.qsys_edit
 #files to remove
 Makefile
 *.txt

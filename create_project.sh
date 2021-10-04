@@ -12,7 +12,7 @@ else
 
     cd $1
     
-    while read -r entry;do rm -rf ${entry}; done < .gitignore
+    while read -rdf entry;do rm -rf ${entry}; done < .gitignore
     
     rm -rfd .git
 
