@@ -13,7 +13,7 @@
    {
       datum _sortIndex
       {
-         value = "10";
+         value = "11";
          type = "int";
       }
    }
@@ -34,7 +34,7 @@
    {
       datum _sortIndex
       {
-         value = "7";
+         value = "8";
          type = "int";
       }
       datum sopceditor_expanded
@@ -60,7 +60,7 @@
    {
       datum _sortIndex
       {
-         value = "11";
+         value = "0";
          type = "int";
       }
       datum sopceditor_expanded
@@ -73,7 +73,7 @@
    {
       datum _sortIndex
       {
-         value = "8";
+         value = "9";
          type = "int";
       }
       datum sopceditor_expanded
@@ -162,7 +162,7 @@
    {
       datum _sortIndex
       {
-         value = "6";
+         value = "7";
          type = "int";
       }
       datum sopceditor_expanded
@@ -188,7 +188,7 @@
    {
       datum _sortIndex
       {
-         value = "9";
+         value = "10";
          type = "int";
       }
       datum sopceditor_expanded
@@ -230,7 +230,7 @@
    {
       datum _sortIndex
       {
-         value = "0";
+         value = "6";
          type = "int";
       }
       datum sopceditor_expanded
